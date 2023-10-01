@@ -70,13 +70,13 @@ Configure and Run the ServiceManager executable.
 Access DeveloperTool from the Website or run it as a standalone application.
 
 ## Folder Structure
-### [Hurricane DeveloperTool](./Hurricane DeveloperTool/README.md)
+### [Hurricane DeveloperTool](./Hurricane%20DeveloperTool/README.md)
 - Documentation and code related to the DeveloperTool.
 
-### [Hurricane ServiceManager](./Hurricane ServiceManager/README.md)
+### [Hurricane ServiceManager](./Hurricane%20ServiceManager/README.md)
 - Documentation and code related to the ServiceManager.
 
-### [Hurricane Website](./Hurricane Website/README.md)
+### [Hurricane Website](./Hurricane%20Website/README.md)
 - Documentation and code related to the Website.
 
 ## Contributing
