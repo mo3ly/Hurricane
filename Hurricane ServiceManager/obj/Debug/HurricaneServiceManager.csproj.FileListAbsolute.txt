@@ -1,0 +1,12 @@
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\bin\Debug\HurricaneServiceManager.exe.config
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\bin\Debug\HurricaneServiceManager.exe
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\bin\Debug\HurricaneServiceManager.pdb
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.csproj.AssemblyReference.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.Properties.Resources.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.csproj.GenerateResource.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.csproj.CoreCompileInputs.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.exe
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.pdb
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.Dashboard.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\HurricaneServiceManager\HurricaneServiceManager\obj\Debug\HurricaneServiceManager.UserInterface.Pages.ConnectionPage.resources

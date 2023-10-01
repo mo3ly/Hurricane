@@ -1,0 +1,12 @@
+{
+    "appManager.array.apps.0.id": "app-id",
+    "appManager.array.apps.0.key": "app-key",
+    "appManager.array.apps.0.secret": "app-secret",
+    "appManager.array.apps.0.enableClientMessages": true,
+    "appManager.array.apps.0.webhooks": [{
+        "url": "http://172.20.10.2:8000/webhooks",
+        "event_types": ["channel_occupied", "channel_vacated", "member_added", "member_removed", "client_event"]
+    }],
+    "debug": true,
+    "port": 6001
+}

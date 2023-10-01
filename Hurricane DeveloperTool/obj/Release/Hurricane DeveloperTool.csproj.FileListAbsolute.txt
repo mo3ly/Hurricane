@@ -1,0 +1,16 @@
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\bin\Release\Hurricane DeveloperTool.exe.config
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\bin\Release\Hurricane DeveloperTool.exe
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\bin\Release\Hurricane DeveloperTool.pdb
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane DeveloperTool.csproj.AssemblyReference.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane DeveloperTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.Properties.Resources.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane DeveloperTool.csproj.GenerateResource.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane DeveloperTool.csproj.CoreCompileInputs.cache
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane DeveloperTool.exe
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane DeveloperTool.pdb
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.HurricaneControls.HurricaneTextBox.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.Views.ConnectionView.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.Views.DashboardView.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.Views.GuideView.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.Views.StatisticsView.resources
+C:\Users\mo3ly\Desktop\Personal\Silkroad\Hurricane\Apps\Hurricane DeveloperTool\Hurricane DeveloperTool\obj\Release\Hurricane_DeveloperTool.Views.Dialogs.MessageBoxView.resources

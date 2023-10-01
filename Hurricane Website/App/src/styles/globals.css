@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "spiegel";
+    src: url("/fonts/Spiegel/spiegel.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+  
+/**************************************
+        S C R O L L    B A R
+***************************************/
+html.dark-mode::-webkit-scrollbar {
+    background: rgba(53, 53, 53, 1);
+    height: 20px;
+    width: 12px;
+  }
+  html.dark-mode::-webkit-scrollbar-track {
+    background: rgba(53, 53, 53, 1);
+    padding: 4px !important;
+  }
+  html.dark-mode::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px !important;
+  }
+  html.dark-mode::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  html.light-mode::-webkit-scrollbar {
+    background: rgb(216, 216, 216);
+    height: 20px;
+    width: 12px;
+  }
+  html.light-mode::-webkit-scrollbar-track {
+    background-color: rgb(240, 240, 240);
+    padding: 4px;
+  }
+  html.light-mode::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.2);
+    border-radius: 0px;
+  }
+  html.light-mode::-webkit-scrollbar-thumb:hover {
+    background: rgba(100, 100, 100, 0.3);
+  }
+
+  
+/**************************************
+            A N I M A T I O N
+***************************************/
+.animate-hurricane {
+    animation-name: hurricane;
+    animation-duration: 1200ms;
+}
+
+.animate-hurricane-text-down {
+    animation-name: hurricane-text-down;    
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    clip-path: polygon(0% 0%, 200% 0%, 0% 200%);
+}
+
+.animate-hurricane-text-up {
+    animation-name: hurricane-text-up;    
+    animation-duration: 2800ms;
+    animation-delay: 100ms;
+    animation-fill-mode: backwards;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);    
+    clip-path: polygon(100% 100%, -200% 100%, 100% -200%);
+}
+
+.animate-hurricane-fade {
+    animation-name: hurricane-fade;
+    animation-duration: 2000ms;
+}
+
+@keyframes hurricane {
+    from {
+        transform:rotate(0deg) scale(1.5); 
+    }
+    to {
+        transform:rotate(360deg) scale(1);
+    }
+}
+
+
+@keyframes hurricane-text-down {
+    0% {
+        clip-path: polygon(0% 0%, 0% 0%, 0% 0%);
+    }
+    100% {
+        clip-path: polygon(0% 0%, 200% 0%, 0% 200%);
+    }
+}
+
+@keyframes hurricane-text-up {
+    0% {
+        clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+    }
+    100% {
+        clip-path: polygon(100% 100%, -200% 100%, 100% -200%);
+    }
+}
+
+@keyframes hurricane-fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/**************************************
+            B O R D E R S
+***************************************/
+
+.hex-border {
+    outline:none;
+    background:
+        linear-gradient(grey,grey) top   /calc(100% - 30px) 1px,
+        linear-gradient(grey,grey) bottom/calc(100% - 0px) 1px,
+        linear-gradient(grey,grey) left  /1px calc(100% - 30px),
+        linear-gradient(grey,grey) right /1px calc(100% - 30px),
+        
+        linear-gradient(to bottom right,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        top left/1px 15px,
+        linear-gradient(to bottom right,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        bottom right/15px 1px,
+        linear-gradient(to bottom left,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        top right/15px 15px,
+        linear-gradient(to bottom left,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        bottom left/1px 15px;
+        
+    background-repeat:no-repeat;
+}
+
+.hex-border:hover, .hex-border:focus {
+    background:
+        linear-gradient(#d0a85c,#d0a85c) top   /calc(100% - 30px) 1px,
+        linear-gradient(#d0a85c,#d0a85c) bottom/calc(100% - 0px) 1px,
+        linear-gradient(#d0a85c,#d0a85c) left  /1px calc(100% - 30px),
+        linear-gradient(#d0a85c,#d0a85c) right /1px calc(100% - 30px),
+        
+        linear-gradient(to bottom right,
+        transparent calc(50% - 1px),#d0a85c,transparent calc(50% + 1px))
+        top left/1px 15px,
+        linear-gradient(to bottom right,
+        transparent calc(50% - 1px),#d0a85c,transparent calc(50% + 1px))
+        bottom right/15px 1px,
+        linear-gradient(to bottom left,
+        transparent calc(50% - 1px),#d0a85c,transparent calc(50% + 1px))
+        top right/15px 15px,
+        linear-gradient(to bottom left,
+        transparent calc(50% - 1px),#d0a85c,transparent calc(50% + 1px))
+        bottom left/1px 15px;
+        
+    background-repeat:no-repeat;
+}
+
+
+.button-hex-border {
+    outline:none;
+    background:
+        linear-gradient(grey,grey) top   /calc(100% - 30px) 1px,
+        linear-gradient(grey,grey) bottom/calc(100% - 0px) 1px,
+        linear-gradient(grey,grey) left  /1px calc(100% - 30px),
+        linear-gradient(grey,grey) right /1px calc(100% - 30px),
+        
+        linear-gradient(to bottom right,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        top left/1px 15px,
+        linear-gradient(to bottom right,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        bottom right/15px 1px,
+        linear-gradient(to bottom left,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        top right/15px 15px,
+        linear-gradient(to bottom left,
+        transparent calc(50% - 1px),grey,transparent calc(50% + 1px))
+        bottom left/1px 15px;
+        
+    background-repeat:no-repeat;
+}
+
+
+/**************************************
+        B A C K G R O U N D S
+***************************************/
+.hex-bg{
+    --btn-raise: 1rem;
+    clip-path: polygon(var(--btn-raise) 0%, 100% 0%, 100% 65%, calc(100% - var(--btn-raise)) 100%, 0% 100%, 0 35%);
+}
+.hex-bg:hover{
+    clip-path: none;
+}
+
+.hex-bg-2{
+    --btn-raise: 1rem;
+    clip-path: polygon(0% 0%, calc(101% - var(--btn-raise)) 0%, calc(105% + var(--btn-raise)) 100%, 0 100%, 0% 100%, 0% 0%);
+}
+
+
+/**************************************
+            T O A S T E R
+***************************************/
+.Toastify__toast {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    @apply border border-gray-200
+}
