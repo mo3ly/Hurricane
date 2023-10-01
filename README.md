@@ -37,7 +37,7 @@ Hurricane is a Software as a Service (SaaS) solution designed for "Silkroad Onli
 
 ### ServiceManager
 <p align="center">
-  <img src="/screenshots/hurricane-service-manager.JPG" alt="Hurricane ServiceManager">
+  <img src="/screenshots/hurricane-sevice-manager.JPG" alt="Hurricane ServiceManager">
 </p>
 
 - Serves as a bridge between your private server and our protection filter.
