@@ -58,6 +58,8 @@ Hurricane is a Software as a Service (SaaS) solution designed for "Silkroad Onli
 - C#
 - Laravel
 - Next.js
+- Pusher
+- Soketi
 
 ## Usage
 ### Website
