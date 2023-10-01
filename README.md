@@ -28,16 +28,29 @@ Hurricane is a Software as a Service (SaaS) solution designed for "Silkroad Onli
 
 ## Features
 ### Website
+<p align="center">
+  <img src="/screenshots/hurricane-website.JPG" alt="Hurricane Website">
+</p>
+
 - User-friendly interface to manage your server settings.
 - Live monitoring of server status.
 
 ### ServiceManager
+<p align="center">
+  <img src="/screenshots/hurricane-service-manager.JPG" alt="Hurricane ServiceManager">
+</p>
+
 - Serves as a bridge between your private server and our protection filter.
 - Allows seamless interaction between the user interface and the backend.
 
 ### DeveloperTool
+<p align="center">
+  <img src="/screenshots/hurricane-developer-tool.JPG" alt="Hurricane DeveloperTool">
+</p>
+
 - Provides the ability to manage your own protection filter.
 - Includes utility functions for development tasks.
+
 
 ## Installation
 ### Prerequisites
